@@ -8,8 +8,8 @@ interface ButtonProps {
 }
 
 const buttonVariants = {
-  primary: "bg-purple-600 text-white",
-  secondary: "bg-purple-400 text-purple-600",
+  primary: "bg-purple-700 text-white",
+  secondary: "bg-purple-500 text-white-500",
 };
 const buttonSizes = {
   sm: "px-2 py-1 text-sm rounded-sm",

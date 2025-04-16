@@ -6,16 +6,17 @@ import { ShareIcon } from "./icons/ShareIcon";
 function App() {
   return (
     <>
+      <div className="bg-red-400">Hello World</div>
       <Button
-        variant="primary"
+        variant="secondary"
         size="md"
         onClick={() => {}}
         text="Share"
-        startIcon={<PlusIcon size="md" />}
         endIcon={<ShareIcon size="md" />}
       />
+
       <Button
-        variant="secondary"
+        variant="primary"
         size="lg"
         text="Add Content"
         onClick={() => {}}
